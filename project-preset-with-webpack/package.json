@@ -1,4 +1,5 @@
 {
+  "$schema": "https://json.schemastore.org/package",
   "name": "project-preset-with-webpack",
   "version": "1.0.0",
   "description": "project preset with webpack by junproger",
