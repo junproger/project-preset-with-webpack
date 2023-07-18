@@ -1,0 +1,15 @@
+{
+  "name": "project-preset-with-webpack",
+  "version": "1.0.0",
+  "description": "project preset with webpack by junproger",
+  "keywords": ["preset", "template", "webpack", "typescript"],
+  "homepage": "https://github.com/junproger/project-preset-with-webpack",
+  "repository": "git+https://github.com/junproger/project-preset-with-webpack.git",
+  "author": "JunProger <junproger@gmail.com> (https://github.com/junproger)",
+  "private": true,
+  "license": "ISC",
+  "main": "./source/index.js",
+  "scripts": {},
+  "dependencies": {},
+  "devDependencies": {}
+}
