@@ -25,8 +25,8 @@ Repo: [link](https://github.com/junproger/project-preset-with-webpack)
 
 ## Packages
 
-- "@typescript-eslint/eslint-plugin": "^5.60.1",
-- "@typescript-eslint/parser": "^5.60.1",
+- "@typescript-eslint/eslint-plugin": "^6.1.0",
+- "@typescript-eslint/parser": "^6.1.0",
 - "css-loader": "^6.8.1",
 - "eslint": "^8.45.0",
 - "eslint-plugin-import": "^2.27.5",
