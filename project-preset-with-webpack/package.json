@@ -16,6 +16,7 @@
   "license": "ISC",
   "main": "./source/index.ts",
   "scripts": {
+    "typing": "tsc --noEmit",
     "build": "webpack --mode=production --node-env=production",
     "build:dev": "webpack --mode=development",
     "build:prod": "webpack --mode=production --node-env=production",
