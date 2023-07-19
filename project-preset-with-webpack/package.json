@@ -3,7 +3,12 @@
   "name": "project-preset-with-webpack",
   "version": "1.0.0",
   "description": "project preset with webpack by junproger",
-  "keywords": ["preset", "template", "webpack", "typescript"],
+  "keywords": [
+    "preset",
+    "template",
+    "webpack",
+    "typescript"
+  ],
   "homepage": "https://github.com/junproger/project-preset-with-webpack",
   "repository": "git+https://github.com/junproger/project-preset-with-webpack.git",
   "author": "JunProger <junproger@gmail.com> (https://github.com/junproger)",
@@ -12,5 +17,9 @@
   "main": "./source/index.js",
   "scripts": {},
   "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
 }
