@@ -29,6 +29,6 @@ Repo: [link](https://github.com/junproger/project-preset-with-webpack)
 - "eslint-webpack-plugin": "^4.0.1",
 - "prettier": "^2.8.8",
 - "typescript": "^5.1.6",
-- "webpack": "^5.88.1",
+- "webpack": "^5.88.2",
 - "webpack-cli": "^5.1.4",
 - "webpack-dev-server": "^4.15.1"
