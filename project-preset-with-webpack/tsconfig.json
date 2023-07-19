@@ -1,0 +1,48 @@
+{
+  // schema
+  "$schema": "https://json.schemastore.org/tsconfig",
+  // root
+  "include": ["./source/**/*"],
+  "exclude": ["./node_modules", "./webpack.config.js"],
+  // copmpiler
+  "compilerOptions": {
+    // base
+    "baseUrl": "./source",
+    "noEmit": false,
+    "noEmitOnError": true,
+    "target": "es2022",
+    "module": "es2022",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "checkJs": true,
+    "allowJs": true,
+    "outDir": "../dist",
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    // strict
+    "strict": true,
+    "alwaysStrict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": true,
+    "strictFunctionTypes": true,
+    "noImplicitThis": true,
+    "strictBindCallApply": true,
+    // linters
+    "noPropertyAccessFromIndexSignature": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    // advanced
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "noImplicitUseStrict": false,
+    "suppressExcessPropertyErrors": false,
+    "suppressImplicitAnyIndexErrors": false,
+    "noStrictGenericChecks": false
+  }
+}
