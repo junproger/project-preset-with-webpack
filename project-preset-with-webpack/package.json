@@ -14,8 +14,14 @@
   "author": "JunProger <junproger@gmail.com> (https://github.com/junproger)",
   "private": true,
   "license": "ISC",
-  "main": "./source/index.js",
-  "scripts": {},
+  "main": "./source/index.ts",
+  "scripts": {
+    "build": "webpack --mode=production --node-env=production",
+    "build:dev": "webpack --mode=development",
+    "build:prod": "webpack --mode=production --node-env=production",
+    "watch": "webpack --watch",
+    "serve": "webpack serve"
+  },
   "dependencies": {},
   "devDependencies": {
     "webpack": "^5.88.2",
