@@ -1,0 +1,21 @@
+body {
+  height: 100%;
+  background-color: black;
+  background-image: url('./webpack.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 20px;
+}
+h1 {
+  color: coral;
+  font-size: 6rem;
+  font-weight: bold;
+  text-align: center;
+}
+.title {
+  color: blue;
+  font-size: 4rem;
+  font-weight: bold;
+  text-align: center;
+}
