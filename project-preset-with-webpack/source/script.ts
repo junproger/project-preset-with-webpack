@@ -1,4 +1,4 @@
-import hello from './hello.png';
+import hello from './assets/hello.png';
 
 export const script = (): HTMLDivElement => {
   const element: HTMLDivElement = document.createElement('div');
