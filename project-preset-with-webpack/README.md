@@ -1,6 +1,6 @@
 # project-preset-with-webpack
 
-## Project-preset-with-webpack is a boilerplate for quick start your awesome project with [webpack bundler](https://webpack.js.org/concepts/) and [typescript](https://www.typescriptlang.org/docs/) by Junproger
+Project-preset-with-webpack is a boilerplate for quick start your awesome project with [webpack bundler](https://webpack.js.org/concepts/) and [typescript](https://www.typescriptlang.org/docs/) by Junproger
 
 Repo: [link](https://github.com/junproger/project-preset-with-webpack)
 
@@ -47,10 +47,15 @@ Repo: [link](https://github.com/junproger/project-preset-with-webpack)
 ## Folders
 
 Source
+
   |-- ./assets
+
   |-- ./components
+
   |-- ./constants
+
   |-- ./declares
+
   |-- ./types
 
 ## Source
@@ -70,6 +75,7 @@ Source
 ## Reference
 
 [MICROSOFT TYPESCRIPT CODING GUIDELINES ENG](https://github.com/Microsoft/TypeScript/wiki/Coding-guidelines)
+
 [GOOGLE CODING TYPESCRIPT STYLEGUIDE RUS](https://github.com/olegbarabanov/google-typescript-style-guide-ru)
 
 ## License
