@@ -1,14 +1,9 @@
 import './index.css';
 
-import './favicon.ico';
+import './assets/favicon.ico';
 
-import { script } from './script';
+import { app } from './components/app/app';
 
-const root = document.body;
-root.className = 'root';
-
-const h1 = document.createElement('h1');
-h1.textContent = 'The Project Started!';
-
-root.append(h1);
-root.append(script());
+window.addEventListener('DOMContentLoaded', function () {
+  app();
+});

@@ -1,7 +1,8 @@
-body {
+body,
+.root {
   height: 100%;
   background-color: black;
-  background-image: url('./webpack.svg');
+  background-image: url('./assets/webpack.svg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
