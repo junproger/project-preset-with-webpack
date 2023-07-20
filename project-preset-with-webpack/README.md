@@ -20,8 +20,8 @@ Repo: [link](https://github.com/junproger/project-preset-with-webpack)
 - **ES6 Modules Webpack** -> [es-modules](https://webpack.js.org/concepts/modules/)
 - **CSS Modules** -> [css-modules](https://github.com/css-modules/css-modules)
 - **CSS Modules Webpack** -> [css-modules](https://webpack.js.org/loaders/css-loader/#modules)
-- SASS (optional) -> [sass/scss](https://sass-lang.com/guide/)
-- React (optional) -> [react-js](https://react.dev/learn)
+- SASS (optional) -> [sass/scss](https://webpack.js.org/loaders/sass-loader/)
+- React (optional) -> [react-js](https://github.com/facebook/create-react-app)
 
 ## Packages
 
@@ -29,9 +29,10 @@ Repo: [link](https://github.com/junproger/project-preset-with-webpack)
 - "@typescript-eslint/parser": "^6.1.0",
 - "css-loader": "^6.8.1",
 - "eslint": "^8.45.0",
+- "eslint-config-prettier": "^8.8.0",
+- "eslint-import-resolver-typescript": "^3.5.5",
 - "eslint-plugin-import": "^2.27.5",
 - "eslint-plugin-prettier": "^5.0.0",
-- "eslint-config-prettier": "^8.8.0",
 - "eslint-webpack-plugin": "^4.0.1",
 - "html-webpack-plugin": "^5.5.3",
 - "mini-css-extract-plugin": "^2.7.6",
