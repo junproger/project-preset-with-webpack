@@ -43,3 +43,35 @@ Repo: [link](https://github.com/junproger/project-preset-with-webpack)
 - "webpack": "^5.88.2",
 - "webpack-cli": "^5.1.4",
 - "webpack-dev-server": "^4.15.1"
+
+## Folders
+
+Source
+  |-- ./assets
+  |-- ./components
+  |-- ./constants
+  |-- ./declares
+  |-- ./types
+
+## Source
+
+- index.html with links to favicon, styles and script
+- index.ts as the index script and entry point for Webpack
+- index.css as the global styles
+- root.ts as the root element constant
+- myApp.ts as the main application script
+- appView.ts as the application component
+- ViewType.ts as the type aliase of the appView Component
+- assets.d.ts as the declaration type for png images
+- favicon.ico as the favicon
+- hello.png as the imported image
+- parcel.png as the background image
+
+## Reference
+
+[MICROSOFT TYPESCRIPT CODING GUIDELINES ENG](https://github.com/Microsoft/TypeScript/wiki/Coding-guidelines)
+[GOOGLE CODING TYPESCRIPT STYLEGUIDE RUS](https://github.com/olegbarabanov/google-typescript-style-guide-ru)
+
+## License
+
+The ISC License (ISC)
