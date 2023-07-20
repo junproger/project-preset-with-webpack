@@ -1,7 +1,7 @@
 import hello from '../../assets/hello.png';
-import { component } from '../../types/component';
+import { ViewType } from '../../types/ViewType';
 
-export const view: component = () => {
+export const appView: ViewType = () => {
   const element: HTMLElement = document.createElement('div');
   element.classList.add('title');
   const myImage: HTMLImageElement = new Image(256, 256);

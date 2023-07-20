@@ -1,3 +1,3 @@
-export const root: HTMLElement = document.body;
+export const ROOT: HTMLElement = document.body;
 
-root.className = 'root';
+ROOT.className = 'root';
