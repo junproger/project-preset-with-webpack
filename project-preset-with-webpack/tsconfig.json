@@ -12,7 +12,7 @@
     "noEmitOnError": true,
     "target": "es2022",
     "module": "es2022",
-    "moduleResolution": "node",
+    "moduleResolution": "bundler",
     "sourceMap": true,
     "checkJs": true,
     "allowJs": true,
