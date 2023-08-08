@@ -2,7 +2,7 @@
 
 Project-preset-with-webpack is a boilerplate for quick start your awesome project with [webpack bundler](https://webpack.js.org/concepts/) and [typescript](https://www.typescriptlang.org/docs/) by Junproger
 
-Repo: [link](https://github.com/junproger/project-preset-with-webpack)
+Webpack Preset: [link](https://github.com/junproger/project-preset-with-webpack)
 
 ## Stack
 
@@ -20,8 +20,9 @@ Repo: [link](https://github.com/junproger/project-preset-with-webpack)
 - **ES6 Modules Webpack** -> [es-modules](https://webpack.js.org/concepts/modules/)
 - **CSS Modules** -> [css-modules](https://github.com/css-modules/css-modules)
 - **CSS Modules Webpack** -> [css-modules](https://webpack.js.org/loaders/css-loader/#modules)
-- SASS (optional) -> [sass/scss](https://webpack.js.org/loaders/sass-loader/)
 - React (optional) -> [react-js](https://github.com/facebook/create-react-app)
+- SASS (optional) -> [sass/scss](https://webpack.js.org/loaders/sass-loader/)
+- CLSX (optional) -> [clsx](https://github.com/lukeed/clsx)
 
 ## Packages
 
@@ -73,6 +74,10 @@ Source
 - parcel.png as the background image
 
 ## Reference
+
+[Definitely Typed ENG](https://github.com/DefinitelyTyped/DefinitelyTyped/blob/master/README.md)
+
+[Definitely Typed RUS](https://github.com/DefinitelyTyped/DefinitelyTyped/blob/master/README.ru.md)
 
 [MICROSOFT TYPESCRIPT CODING GUIDELINES ENG](https://github.com/Microsoft/TypeScript/wiki/Coding-guidelines)
 
