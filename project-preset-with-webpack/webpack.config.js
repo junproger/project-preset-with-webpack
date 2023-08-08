@@ -7,9 +7,7 @@ const EslintWebpackPlugin = require('eslint-webpack-plugin');
 
 const isProduction = process.env.NODE_ENV == "production";
 
-const stylesHandler = isProduction
-  ? MiniCssExtractPlugin.loader
-  : "style-loader";
+const stylesHandler = isProduction ? MiniCssExtractPlugin.loader : "style-loader";
 
 const config = {
   entry: path.resolve(__dirname, './source/index.ts'),
@@ -47,10 +45,24 @@ const config = {
       },
       {
         test: /\.css$/i,
-        use: [stylesHandler, "css-loader"],
+        use: [
+          stylesHandler,
+          {
+            loader: 'css-loader',
+            options: {
+              modules: {
+                auto: true,
+                localIdentName: isProduction 
+                ? '[name]-[hash:base64]'
+                : '[name]-[local]-[hash:base64:8]',
+              },
+            },
+          },
+        ],
       },
       {
         test: /\.(eot|ttf|woff|woff2|ico|png|svg|avif|webp|jpg|gif)$/i,
+        // More information here https://webpack.js.org/guides/asset-modules/
         type: "asset/resource",
       },
 
