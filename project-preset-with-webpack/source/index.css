@@ -9,12 +9,19 @@ body,
   padding: 20px;
   margin: 0;
 }
+
 h1 {
   color: coral;
   font-size: 6rem;
   font-weight: bold;
   text-align: center;
 }
+
+.hello {
+  width: 256px;
+  height: 256px;
+}
+
 .title {
   color: blue;
   font-size: 4rem;
