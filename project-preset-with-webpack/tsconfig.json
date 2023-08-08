@@ -6,8 +6,13 @@
   "exclude": ["./node_modules", "./webpack.config.js"],
   // copmpiler
   "compilerOptions": {
-    // base
-    "baseUrl": "./source",
+    // base, baseUrl is no longer required to be set when using "paths"
+    "baseUrl": "./source", // This must be specified if "paths" is exist (defined)
+    /** 
+    * Please notice that paths are resolved relative to baseUrl. When setting baseUrl to
+    * a value other than ".", for example "./src" , i.e. the directory of tsconfig.json,
+    * the paths mappings must be changed accordingly
+    */
     "noEmit": false,
     "noEmitOnError": true,
     "target": "es2022",
